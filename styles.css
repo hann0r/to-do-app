@@ -1,0 +1,35 @@
+h1,
+h2 {
+  text-align: center;
+  color: #078080;
+}
+
+h1 {
+  font-size: 45px;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+.notesFrame {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.linkToApp {
+  display: flex;
+  justify-content: center;
+}
+
+.activeClassname {
+  color: black;
+}
+
+.homeLink {
+  display: flex;
+  justify-content: center;
+}
