@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { Routes, Route, Outlet, NavLink } from 'react-router-dom';
-import TodoListContent from './todo/TodoListContent';
+import * as React from "react";
+import { Routes, Route, Outlet, NavLink } from "react-router-dom";
+import TodoListContent from "./todo/TodoListContent";
 
-import './styles.css';
+import "./styles.css";
 
 export default function App() {
   return (
@@ -13,7 +13,6 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="todo" element={<TodoList />} />
-          {/* <Route path="dashboard" element={<Notes />} /> */}
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
@@ -31,8 +30,8 @@ function Layout() {
               to="/"
               style={({ isActive }) => {
                 return {
-                  color: isActive ? 'red' : '',
-                  padding: '10px',
+                  color: isActive ? "red" : "",
+                  padding: "10px",
                 };
               }}
             >
@@ -43,34 +42,21 @@ function Layout() {
             <NavLink
               style={({ isActive }) => {
                 return {
-                  color: isActive ? 'red' : '',
-                  padding: '10px',
+                  color: isActive ? "red" : "",
+                  padding: "10px",
                 };
               }}
               to="/todo"
             >
-              TodoList{' '}
+              TodoList{" "}
             </NavLink>
-          </li>
-          <li>
-            {/* <NavLink
-              style={({ isActive }) => {
-                return {
-                  color: isActive ? 'red' : '',
-                  padding: '10px',
-                };
-              }}
-              to="/dashboard"
-            >
-              Notes
-            </NavLink> */}
           </li>
           <li>
             <NavLink
               style={({ isActive }) => {
                 return {
-                  color: isActive ? 'red' : '',
-                  padding: '10px',
+                  color: isActive ? "red" : "",
+                  padding: "10px",
                 };
               }}
               to="/nothing-here"
@@ -102,52 +88,12 @@ function TodoList() {
     <div className="notesContainer">
       <div>
         <h2>TodoList</h2>
-        {/* <a
-        href="https://todo-organiser.stackblitz.io/"
-        className="linkToApp"
-        target="blank"
-      >
-        Click to open Todo App in new window
-      </a>
-      <div className="notesFrame">
-        <iframe
-          id="todo"
-          src="https://todo-organiser.stackblitz.io/"
-          height="420"
-          width="500"
-          title="TodoList"
-        ></iframe> */}
+
         <TodoListContent />
       </div>
     </div>
   );
 }
-
-// function Notes() {
-//   return (
-//     <div className="notesContainer">
-//       <h2>Notes</h2>
-//       <div>
-//         {/* <a
-//         href="https://react-notes-app-organiser.stackblitz.io/"
-//         className="linkToApp"
-//         target="blank"
-//       >
-//         Click to open Notes App in new window
-//       </a>
-//       <div className="notesFrame">
-//         <iframe
-//           src="https://react-notes-app-organiser.stackblitz.io/"
-//           height="420"
-//           width="500"
-//           title="VoicenoteApp"
-//           allow="camera *;microphone *"
-//         ></iframe> */}
-//         <NoteApp />
-//       </div>
-//     </div>
-//   );
-// }
 
 function NoMatch() {
   return (
@@ -157,7 +103,7 @@ function NoMatch() {
         className="homeLink"
         style={({ isActive }) => {
           return {
-            color: isActive ? 'red' : '',
+            color: isActive ? "red" : "",
           };
         }}
         to="/"

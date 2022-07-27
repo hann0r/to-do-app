@@ -603,7 +603,7 @@ function App() {
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(NoMatch, {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "App.tsx",
-                            lineNumber: 17,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, this)
                     ]
@@ -645,12 +645,12 @@ function Layout() {
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "App.tsx",
-                                lineNumber: 30,
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "App.tsx",
-                            lineNumber: 29,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -668,17 +668,12 @@ function Layout() {
                                 ]
                             }, void 0, true, {
                                 fileName: "App.tsx",
-                                lineNumber: 43,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "App.tsx",
-                            lineNumber: 42,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {}, void 0, false, {
-                            fileName: "App.tsx",
-                            lineNumber: 55,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -693,39 +688,39 @@ function Layout() {
                                 children: "Nothing Here"
                             }, void 0, false, {
                                 fileName: "App.tsx",
-                                lineNumber: 69,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "App.tsx",
-                            lineNumber: 68,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "App.tsx",
-                    lineNumber: 28,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "App.tsx",
-                lineNumber: 27,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "App.tsx",
-                lineNumber: 83,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "App.tsx",
-                lineNumber: 84,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "App.tsx",
-        lineNumber: 26,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -736,12 +731,12 @@ function Home() {
             children: "\u201CDeciding what NOT to do is as important as deciding what to do.\u201D \u2014 Steve Jobs"
         }, void 0, false, {
             fileName: "App.tsx",
-            lineNumber: 92,
+            lineNumber: 78,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.tsx",
-        lineNumber: 91,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 }
@@ -755,52 +750,27 @@ function TodoList() {
                     children: "TodoList"
                 }, void 0, false, {
                     fileName: "App.tsx",
-                    lineNumber: 104,
+                    lineNumber: 90,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _todoListContentDefault.default), {}, void 0, false, {
                     fileName: "App.tsx",
-                    lineNumber: 120,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "App.tsx",
-            lineNumber: 103,
+            lineNumber: 89,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.tsx",
-        lineNumber: 102,
+        lineNumber: 88,
         columnNumber: 5
     }, this);
 }
 _c3 = TodoList;
-// function Notes() {
-//   return (
-//     <div className="notesContainer">
-//       <h2>Notes</h2>
-//       <div>
-//         {/* <a
-//         href="https://react-notes-app-organiser.stackblitz.io/"
-//         className="linkToApp"
-//         target="blank"
-//       >
-//         Click to open Notes App in new window
-//       </a>
-//       <div className="notesFrame">
-//         <iframe
-//           src="https://react-notes-app-organiser.stackblitz.io/"
-//           height="420"
-//           width="500"
-//           title="VoicenoteApp"
-//           allow="camera *;microphone *"
-//         ></iframe> */}
-//         <NoteApp />
-//       </div>
-//     </div>
-//   );
-// }
 function NoMatch() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -808,7 +778,7 @@ function NoMatch() {
                 children: "Nothing to see here!"
             }, void 0, false, {
                 fileName: "App.tsx",
-                lineNumber: 155,
+                lineNumber: 101,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
@@ -822,13 +792,13 @@ function NoMatch() {
                 children: "Go to the home page"
             }, void 0, false, {
                 fileName: "App.tsx",
-                lineNumber: 156,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "App.tsx",
-        lineNumber: 154,
+        lineNumber: 100,
         columnNumber: 5
     }, this);
 }
