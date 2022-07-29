@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -20,6 +21,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+const db = getFirestore(app);
 
 ReactDOM.render(
   <React.StrictMode>
